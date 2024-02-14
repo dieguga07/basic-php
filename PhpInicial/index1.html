@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Personales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .datos {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .dato-label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="datos">
+        <span class="dato-label">Nombre:</span> <?php echo $nombre; ?><br>
+        <span class="dato-label">Apellidos:</span> <?php echo $apellidos; ?><br>
+        <span class="dato-label">Dirección:</span> <?php echo $direccion; ?><br>
+        <span class="dato-label">Edad:</span> <?php echo $edad; ?><br>
+        <span class="dato-label">Teléfono:</span> <?php echo $telefono; ?><br>
+        <span class="dato-label">Email:</span> <?php echo $email; ?><br>
+    </div>
+</body>
+</html>
